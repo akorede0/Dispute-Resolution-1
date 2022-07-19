@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="indemnity.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+          <a href="C:\Users\Akorede\Desktop\Dispute-Resolution\index.html"> <img src="asset/sterling-logo.png" alt="" height="50px" width="50px"></a>
+            
+            <ul class="navbar-menu">
+            <li class="navbar-item">
+               <h1>INDEMNITY FOR REVERSAL OF TRANSACTION DISPUTE</h1>
+            </li>
+            </ul>
+          <!--  <ul class="navbar-menu">
+            <li class="navbar-item">
+             <a class= "trck" href="track0.html"> Track Dispute </a>
+             <p id="tracker"></p>
+            </li>
+            </ul> -->
+        <div>
+    </nav>
+    <form action="#" id="fm">
+     
+    
+        <div>
+          <label for="account-number">Account Number: </label>
+          <!--<input id="accname" type="text" maxlength="10" pattern="\d{10}" title="Please enter exactly 10 digits" />-->
+         <!--<input id="accname" type="number" number="account-number"  required />-->
+         <input id="accname" type="number" number="account-number"  required maxlength=10
+         oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+          <p id="accountname"></p> 
+        
+        </div>
+        
+    <!--    <div class="check">
+          <label for="dispute type">Mode of Transaction: </label>
+        </div>
+        
+      <div class="checks">
+        <li>
+        <label for="onepay">One Bank</label>
+        <input type="radio" name="e-product"
+        id="onebank" value="onebank">
+        </li>
+        <li>
+            <label for="sterlingpro">Sterling Pro</label>
+        <input type="radio" name="e-product"
+        id="sterlingpro" value="paypro">
+        </li>
+        <li>
+          <label for="contactText">USSD</label>
+        <input type="radio" name="e-product"
+        id="ussd" value="ussd" required>
+        </li>
+        <li>
+          <label for="pos">POS</label>
+          <input type="radio" name="e-product"
+          id="pos" value="pos">
+    
+        </li>
+        <li>
+          <label for="vervemaster">Verve-Master Card</label>
+          <input type="radio" name="e-product"
+          id="vervemaster" value="verve"> 
+        </li>
+        </ul>
+      </div>
+    
+      <div id="myDIV">
+        This is my DIV element.
+        </div>-->
+    
+     <!--<section id="hidecarddetails">
+          <div class="card">
+           <div class="cadd">
+          <label for="card-number">Card Number: </label>
+          <h6>Card related to Dispute only</h6>
+          <input type="number" placeholder="First six digit on your card" name="card-number" required maxlength=6
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+           </div>
+    
+    
+            <div class="cad">
+          <label for="card-number"> </label>
+          <input type="number" placeholder="Last four digit on your card" name="card-number" required maxlength=4
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+            </div>
+        </div>
+      </section> -->
+    
+    
+         
+        <div class="amount">
+         <label for="amount">Amount: </label>
+         <input id="input-price" type="number" placeholder="N" name="amount" required required maxlength=7
+         oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+        </div>
+    
+    
+        <div class="mot">
+          <h4>Form of Dispute</h4>
+          <select name="" class="formof-dispute Formof-Dispute" required>
+            <option value="">Select</option>
+            <option value="billpayment">Bill Payment</option>
+            <option value="airtimerecharge">Airtime Recharge</option>
+            <option value="fundtransfer">Fund Transfer</option>
+            <option value="atm">ATM</option>
+            <option value="pos">POS</option>
+            <option value="webpayment">Web Payment</option>
+            <option value="nondispense">Non-Dispense of Cash</option>
+            <option value="partialdepense">Partial Dispense</option>
+            <option value="erroneoustrans">Erroneous Transfer</option>
+            <option value="others">Other</option>
+          </select>
+        
+        <div class="date" >
+          <form action="/action_page.php">
+            <label for="birthday">Transaction Date:</label>
+            <input type="date" id="transdate" name="transdate" required/>
+          </form>
+        </div>
+
+      <div class="indemnity" >
+            THIS INDEMNITY is issued by
+
+        (hereinafter called "the Beneficiary"'
+
+        (hereinafter called "the Indemnifier") in favour of STERLING BANK PLC
+
+        WHEREAS: <br>
+
+        (a) The Indemnifier has reported a transaction dispute over aboved input amount on POS /
+
+        ATM / WEB channel <br>
+
+        (b) The Beneficiary has conducted preliminary investigation on the dispute and has escalated
+
+        same to the relevant institutions ("the Bearer") for resolution (which dispute is pending
+
+        resolution by the Bearer); and
+
+        Ic) The Beneficiary is willing to make an early reversal of the amount in dispute ("the reversal")
+
+        pending resolution of the dispute by the Bearer in exchange of an indemnity given by the
+
+        Indemnifier for the reversal.
+
+        IN CONSIDERATION of the reversal of the sum of inputed amount by the
+
+        Beneficiary, we (as Indemnifier), hereby irrevocably and unconditionally undertake to indemnify
+
+        the Beneficiary in primary capacity against any actions, suits, claims, costs, losses, proceedings
+
+        and / or liabilities it may incur as a result of any reversal made.
+
+        WE FURTHER INDEMNIFY the Beneficiary to the full extent and value of any portion of the amount
+
+        in dispute which is either not released by the Bearer to the Beneficiary after resolution, or which is
+
+        resolved in favour of the Bearer or any other third-party (not being the Indemnifier); AND AGREE
+
+        TO BEAR all debits, loss, damage, costs or any other expenses incurred or occasioned in
+
+        consequence of the reversal with any interest and charges that may accrue thereon.
+
+        This Indemnity shall be governed by the Laws of the Federal Republic of Nigeria and shall remain
+
+        in force and effect until the Indemnifier has been fully discharged from its obligations by the
+
+        Beneficiary under this Indemnity.
+
+    </div>
+    
+
+    <!--      <label for="transaction-location">Transaction Location:</label>
+          <input id="location" type="text" name="transaction-location" required />
+        </div>
+     
+     <!--<div>
+          <label for="phone-number">Phone Number: </label>
+          <input type="number" name="phonen-umber" required maxlength=11
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+        </div> 
+    
+        <div>
+          <label for="email">Email: </label>
+          <input type="email" name="email"/>
+        </div> --> 
+
+        <div>
+          <label class="checkbox" for="myCheckboxId">
+            <input class="checkbox__input" type="checkbox" name= "myCheckboxName" id="myCheckboxId"> I agree with Terms and condition
+            <div class="checkbox__box"></div>
+          </div>  
+    </form>
+    <br>
+  
+
+  <!-- <label class="checkbox" for="myCheckboxId">
+      <input class="checkbox__input" type="checkbox" name= "myCheckboxName" id="myCheckboxId">
+      <div class="checkbox__box"></div>
+      I agree with Terms and condition
+    </label>-->
+
+  <!--<label class="checkbox" for="myCheckboxId">
+    <input class="checkbox__input" type="checkbox" name= "myCheckboxName" id="myCheckboxId">
+    <div class="checkbox__box"></div>
+    I disagree with Terms and condition
+  </label> -->
+
+
+        <button id="submit" type="submit" value="submit"> Submit</button>
+      </div>
+        <p id="submitmessage"></p>
+    </div>
+    
+    <script src="script.js"></script>
+    </body>
+    </html>
+</body>
+</html>
